@@ -23,7 +23,6 @@ function regEX_replace(strOriginalString, strPattern, strReplacement, varIgnoreC
     regEX_replace = objRegExp.replace(strOriginalString, strReplacement)
     set objRegExp = nothing
 end function
-<<<<<<< HEAD
 
 if regEX(strOriginalString, "[^a-f0-9\s]", True) = True then
     response.write "String is not hexadecimal."
@@ -34,6 +33,4 @@ end if
 strOriginalString = "192.168.0.1"
 strOriginalString = regEX_replace(strOriginalString, "([^0-9])([0-9]{1,3})\.([0-9]{1,3})\.([0-9]{1,3})\.[0-9]{1,3}([^0-9])", "$1$2.$3.$4.***$5", True)
 
-=======
->>>>>>> 302fa98952786b3bcbff67d7d636a477f01dbf94
 %>
