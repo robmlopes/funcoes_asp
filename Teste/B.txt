@@ -3,3 +3,5 @@ inicio
 alteração em b.txt
 
 alteração em b.txt adicionado mais uma linha
+alteração em b.txt adicionado mais uma linha
+alteração em b.txt adicionado mais uma linha
